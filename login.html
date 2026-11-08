@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign in - YouTube Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+  <main class="login-main">
+    <section class="login-card" aria-labelledby="login-heading">
+      <a class="brand login-brand" href="home.html" aria-label="YouTube home">
+        <span class="brand-play">▶</span><span>YouTube</span>
+      </a>
+      <h1 id="login-heading">Sign in</h1>
+      <p class="login-intro">Continue to YouTube</p>
+
+      <form class="login-form">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="username" placeholder="Email address" required>
+
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Password" required>
+
+        <p class="login-note">Sign-in is a visual demo only. A server is required to authenticate accounts.</p>
+        <button class="auth-submit" type="button" disabled>Sign in</button>
+      </form>
+
+      <a class="auth-switch-link" href="signup.html">Create an account</a>
+      <a class="back-home" href="home.html">Back to home</a>
+    </section>
+  </main>
+</body>
+</html>

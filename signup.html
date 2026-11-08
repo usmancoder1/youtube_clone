@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create account - YouTube Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+  <main class="login-main">
+    <section class="login-card" aria-labelledby="signup-heading">
+      <a class="brand login-brand" href="home.html" aria-label="YouTube home">
+        <span class="brand-play">▶</span><span>YouTube</span>
+      </a>
+      <h1 id="signup-heading">Create your account</h1>
+      <p class="login-intro">Join YouTube</p>
+
+      <form class="login-form">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
+
+        <label for="new-email">Email</label>
+        <input id="new-email" name="email" type="email" autocomplete="email" placeholder="Email address" required>
+
+        <label for="new-password">Password</label>
+        <input id="new-password" name="password" type="password" autocomplete="new-password" placeholder="At least 8 characters" minlength="8" required>
+
+        <p class="login-note">Account creation is a visual demo only. A server is required to save accounts securely.</p>
+        <button class="auth-submit" type="button" disabled>Create account</button>
+      </form>
+
+      <a class="auth-switch-link" href="login.html">Already have an account? Sign in</a>
+      <a class="back-home" href="home.html">Back to home</a>
+    </section>
+  </main>
+</body>
+</html>

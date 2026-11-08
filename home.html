@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <span class="menu-toggle" aria-hidden="true">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"></path></svg>
+    </span>
+    <a class="brand" href="home.html" aria-label="YouTube home"><span class="brand-play">▶</span><span>YouTube</span><sup>PK</sup></a>
+
+    <form action="https://www.youtube.com/results" method="get" role="search">
+      <label for="search">Search</label>
+      <input id="search" name="search_query" type="search" placeholder="Search" required>
+      <button type="submit" aria-label="Search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+      </button>
+    </form>
+    <a class="create-button" href="signup.html"><span>＋</span> Create account</a>
+    <span class="round-button notifications-button" aria-hidden="true">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9m-8 12h4"></path></svg>
+      <span class="notification-count">9+</span>
+    </span>
+    <a class="account-button" href="login.html" aria-label="Sign in">M</a>
+  </header>
+
+  <aside aria-label="Main navigation">
+    <nav>
+      <ul>
+        <li><a class="side-link" href="home.html" aria-current="page">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"></path></svg><span>Home</span>
+        </a></li>
+        <li><a class="side-link" href="https://www.youtube.com/shorts">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 3.5a3 3 0 0 1 4.1 1.1l1 1.7a3 3 0 0 1-1.1 4.1l-2.1 1.2 2.1 1.2a3 3 0 0 1 1.1 4.1l-1 1.7a3 3 0 0 1-4.1 1.1l-9-5.2a3 3 0 0 1 0-5.2z"></path><path d="m10 9 5 3-5 3z"></path></svg><span>Shorts</span>
+        </a></li>
+        <li><a class="side-link" href="login.html">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="15" rx="2"></rect><path d="M7 3h10m-5 7v7m-3.5-3.5h7"></path></svg><span>Subscriptions</span>
+        </a></li>
+        <li><a class="side-link" href="login.html">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><circle cx="12" cy="9" r="3"></circle><path d="M6.5 19a6 6 0 0 1 11 0"></path></svg><span>You</span>
+        </a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main>
+    <nav aria-label="Video categories">
+      <ul>
+        <li><a class="category-chip" href="home.html">▣ Home feed</a></li>
+        <li><a class="category-chip" href="home.html" aria-current="page">All</a></li>
+        <li><a class="category-chip" href="https://www.youtube.com/results?search_query=Mixes">Mixes</a></li>
+        <li><a class="category-chip" href="https://www.youtube.com/results?search_query=Music">Music</a></li>
+        <li><a class="category-chip" href="https://www.youtube.com/results?search_query=Action+Thrillers">Action Thrillers</a></li>
+        <li><a class="category-chip" href="https://www.youtube.com/results?search_query=Thrillers">Thrillers</a></li>
+        <li><a class="category-chip" href="https://www.youtube.com/results?search_query=Masala+films">Masala films</a></li>
+        <li><a class="category-chip" href="https://www.youtube.com/results?search_query=Pakistani+dramas">Pakistani dramas</a></li>
+        <li><a class="category-chip" href="https://www.youtube.com/results?search_query=Dramedy">Dramedy</a></li>
+        <li><a class="category-chip" href="https://www.youtube.com/results?search_query=Live">Live</a></li>
+        <li><a class="category-chip" href="https://www.youtube.com/results?search_query=Gaming">Gaming</a></li>
+      </ul>
+    </nav>
+
+    <section aria-label="Recommended videos">
+      <h1>Recommended</h1>
+      <div class="video-grid">
+        <article class="video-card">
+          <a href="https://www.youtube.com/results?search_query=Qoder+AI+coding+companion">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=960&q=85" alt="Laptop displaying a code editor">
+            <h2>Qoder, Ultimate AI-Powered Coding Companion for Developers</h2>
+          </a>
+          <p>Sponsored · Qoder</p>
+          <a href="https://www.youtube.com/results?search_query=Qoder+AI+coding+companion">Watch</a>
+          <a href="https://qoder.com/">Visit site</a>
+        </article>
+
+        <article class="video-card">
+          <a href="https://www.youtube.com/results?search_query=Shaamat+Ek+Villain+Returns+full+video">
+            <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=960&q=85" alt="Singer performing on a concert stage">
+            <h2>Mix – Shaamat (Full Video) – Ek Villain Returns</h2>
+          </a>
+          <p>Gulshan Kumar, Pritam, Ankit Tiwari and more · Playlist</p>
+        </article>
+
+        <article class="video-card">
+          <a href="https://www.youtube.com/results?search_query=The+Bhootnii+2025+movie">
+            <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=960&q=85" alt="Rows of seats inside a movie theater">
+            <h2>The Bhootnii (2025) | Sanjay Dutt, Mouni Roy, Sunny Singh</h2>
+          </a>
+          <p>Hindi Movies · 1.2M views · 2 days ago</p>
+        </article>
+        <article class="video-card">
+          <a href="https://www.youtube.com/results?search_query=gaming+highlights">
+            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=960&q=85" alt="Gaming setup with colorful lights">
+            <h2>Epic Gaming Moments You Need to See</h2>
+          </a>
+          <p>Game On · 845K views · 1 day ago</p>
+        </article>
+        <article class="video-card">
+          <a href="https://www.youtube.com/results?search_query=live+music+performance">
+            <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=960&q=85" alt="Crowd enjoying a live music performance">
+            <h2>Best Live Music Moments of the Year</h2>
+          </a>
+          <p>Live Sessions · 2.4M views · 3 days ago</p>
+        </article>
+        <article class="video-card">
+          <a href="https://www.youtube.com/results?search_query=Pakistani+drama+latest">
+            <img src="https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&w=960&q=85" alt="Television screen showing a colorful scene">
+            <h2>New Pakistani Drama – Latest Episode</h2>
+          </a>
+          <p>Drama World · 560K views · 5 days ago</p>
+        </article>
+        <article class="video-card">
+          <a href="https://www.youtube.com/results?search_query=action+thriller+movie+trailer">
+            <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=960&q=85" alt="Dramatic night sky over a city">
+            <h2>Top Action Thriller Movies – Must-Watch Trailers</h2>
+          </a>
+          <p>Movie Central · 1.8M views · 1 week ago</p>
+        </article>
+        <article class="video-card">
+          <a href="https://www.youtube.com/results?search_query=acoustic+music+session">
+            <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=960&q=85" alt="Singer performing on stage">
+            <h2>Acoustic Sessions – Songs to Relax To</h2>
+          </a>
+          <p>Music Room · 930K views · 6 days ago</p>
+        </article>
+        <article class="video-card">
+          <a href="https://www.youtube.com/results?search_query=gaming+setup+tour">
+            <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=960&q=85" alt="Brightly lit gaming desk">
+            <h2>Inside a Dream Gaming Setup</h2>
+          </a>
+          <p>Tech Play · 420K views · 4 days ago</p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="shorts-heading">
+      <h2 id="shorts-heading">Shorts</h2>
+      <div>
+        <article>
+          <a href="https://www.youtube.com/results?search_query=portrait+shorts">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=540&q=85" alt="Portrait of a woman">
+            <h3>Portrait moments</h3>
+          </a>
+          <p>Short video</p>
+        </article>
+        <article>
+          <a href="https://www.youtube.com/results?search_query=street+fashion+shorts">
+            <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=540&q=85" alt="Street fashion portrait">
+            <h3>Street style</h3>
+          </a>
+          <p>Short video</p>
+        </article>
+        <article>
+          <a href="https://www.youtube.com/results?search_query=travel+shorts">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=540&q=85" alt="Mountain landscape at sunset">
+            <h3>Mountain escape</h3>
+          </a>
+          <p>Short video</p>
+        </article>
+        <article>
+          <a href="https://www.youtube.com/results?search_query=music+shorts">
+            <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=540&q=85" alt="Musician performing under stage lights">
+            <h3>Live music</h3>
+          </a>
+          <p>Short video</p>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
